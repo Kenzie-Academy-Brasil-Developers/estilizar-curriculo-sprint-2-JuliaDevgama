@@ -1,27 +1,75 @@
+html, body {
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	margin: 6vh;
+}
+h1 {
+	font-family: 'Helvetica';
+}
+article h2 {
+	color: #444444;
+}
+.mainDetails{
+	margin: 2%;
+}
 .clear {
 	clear: both;
 }
+.clear hr {
+	border: 1px solid #cf8a05;
+	width: 90%;
+}
 
+.subDetails{
+	color: #696464;
+	font-style: italic;
+	font-size: 12px;
+}
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
 }
+#headshot img {
+	border-radius: 90px;
+	margin-bottom: 50px;
+}
 
 #name {
 	float: left;
+	
 }
-
+#name h2 {
+	color: #444444;
+}
 #contactDetails {
 	float: right;
 }
-
+#contactDetails li {
+	list-style: none;
+}
+a[href="mailto:joe@bloggs.com"], a[href= "http://www.bloggs.com"]{
+	text-decoration: none;
+	color:#181818;
+}
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
+	font-style: italic;
 }
-
+.sectionTitle h1,h2 {
+	font-weight: 20;
+	font-family: Arial, Helvetica, sans-serif;
+}
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+.keySkills li {
+	list-style: none;
+}
+
+.keySkills {
+	column-count: 3;
+	column-gap: 40px;
 }
